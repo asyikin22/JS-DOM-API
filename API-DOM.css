@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 85%;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 40%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1, h2 {
+    color: blue;
+}
+
+p {
+    padding: 20px;
+    text-align: justify;
+}
+
+ul {
+    width: 80%;
+}
+
+li {
+    line-height: 30px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+
+    
